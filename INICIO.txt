@@ -1,0 +1,11 @@
+python -m venv .venv
+En Git Bash: source .venv/Scripts/activate
+pip install -r requirements.txt
+python manage.py makemigrations api
+python manage.py migrate
+python populate_data.py
+python manage.py runserver
+Swagger: http://127.0.0.1:8000/api/docs/
+Admin: admin / DemoAdmin2026!
+Usuario: usuario1 / DemoUsuario2026!
+Solo credenciales locales de demostración.
